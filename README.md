@@ -27,3 +27,7 @@ $ python application.py
 ## Setup (online)
 Go to https://grand-movies.herokuapp.com/
 
+## Status
+* Random recommendation, NMF and Neighborhood models are running locally, but are slow
+* NMF model can't be used on the web app, because it takes too long (timeout error). The other two models run also on the web app
+* Choosing trending or clustering model will simply recommend default movies, since those models are not implemented
